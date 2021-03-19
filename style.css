@@ -146,18 +146,15 @@ body {
   grid-gap: 16px;
   margin-bottom: 24px;
 }
-
-
 @media (max-width: 800px) {
   .cards {
     grid-template-columns: 1fr;
   }
 
-  
-
+  .container {
+    width: 90%;
+  }  
 }
-
-
 
 @media (min-width: 500px) {
   .container {
@@ -168,12 +165,12 @@ body {
 
 @media (min-width: 800px) {
   .container {
-    width: 600px;
+    width: 700px;
   }
 }
 
 @media (min-width: 1000px) {
   .container {
-    width: 800px;
+    width: 900px;
   }
 }
